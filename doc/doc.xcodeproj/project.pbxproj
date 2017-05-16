@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		444B891D1ECAAC7200E8BC1E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		444B891E1ECAAC7200E8BC1E /* APIchanges */ = {isa = PBXFileReference; lastKnownFileType = text; path = APIchanges; sourceTree = "<group>"; };
+		444B891F1ECAAC7200E8BC1E /* authors.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = authors.texi; sourceTree = "<group>"; };
+		444B89201ECAAC7200E8BC1E /* bitstream_filters.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = bitstream_filters.texi; sourceTree = "<group>"; };
+		444B89211ECAAC7200E8BC1E /* bootstrap.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bootstrap.min.css; sourceTree = "<group>"; };
+		444B89221ECAAC7200E8BC1E /* build_system.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = build_system.txt; sourceTree = "<group>"; };
+		444B89231ECAAC7200E8BC1E /* codecs.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = codecs.texi; sourceTree = "<group>"; };
+		444B89241ECAAC7200E8BC1E /* config.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.texi; sourceTree = "<group>"; };
+		444B89251ECAAC7200E8BC1E /* decoders.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = decoders.texi; sourceTree = "<group>"; };
+		444B89261ECAAC7200E8BC1E /* default.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+		444B89271ECAAC7200E8BC1E /* demuxers.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = demuxers.texi; sourceTree = "<group>"; };
+		444B89281ECAAC7200E8BC1E /* developer.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = developer.texi; sourceTree = "<group>"; };
+		444B89291ECAAC7200E8BC1E /* devices.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = devices.texi; sourceTree = "<group>"; };
+		444B892A1ECAAC7200E8BC1E /* doxy */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doxy; sourceTree = "<group>"; };
+		444B892B1ECAAC7200E8BC1E /* doxy-wrapper.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "doxy-wrapper.sh"; sourceTree = "<group>"; };
+		444B892C1ECAAC7200E8BC1E /* Doxyfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
+		444B892D1ECAAC7200E8BC1E /* encoders.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = encoders.texi; sourceTree = "<group>"; };
+		444B892E1ECAAC7200E8BC1E /* errno.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = errno.txt; sourceTree = "<group>"; };
+		444B892F1ECAAC7200E8BC1E /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = "<group>"; };
+		444B89301ECAAC7200E8BC1E /* faq.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = faq.texi; sourceTree = "<group>"; };
+		444B89311ECAAC7200E8BC1E /* fate.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = fate.texi; sourceTree = "<group>"; };
+		444B89321ECAAC7200E8BC1E /* fate_config.sh.template */ = {isa = PBXFileReference; lastKnownFileType = text; path = fate_config.sh.template; sourceTree = "<group>"; };
+		444B89331ECAAC7200E8BC1E /* ffmpeg-bitstream-filters.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-bitstream-filters.texi"; sourceTree = "<group>"; };
+		444B89341ECAAC7200E8BC1E /* ffmpeg-codecs.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-codecs.texi"; sourceTree = "<group>"; };
+		444B89351ECAAC7200E8BC1E /* ffmpeg-devices.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-devices.texi"; sourceTree = "<group>"; };
+		444B89361ECAAC7200E8BC1E /* ffmpeg-filters.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-filters.texi"; sourceTree = "<group>"; };
+		444B89371ECAAC7200E8BC1E /* ffmpeg-formats.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-formats.texi"; sourceTree = "<group>"; };
+		444B89381ECAAC7200E8BC1E /* ffmpeg-protocols.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-protocols.texi"; sourceTree = "<group>"; };
+		444B89391ECAAC7200E8BC1E /* ffmpeg-resampler.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-resampler.texi"; sourceTree = "<group>"; };
+		444B893A1ECAAC7200E8BC1E /* ffmpeg-scaler.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-scaler.texi"; sourceTree = "<group>"; };
+		444B893B1ECAAC7200E8BC1E /* ffmpeg-utils.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-utils.texi"; sourceTree = "<group>"; };
+		444B893C1ECAAC7200E8BC1E /* ffmpeg.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffmpeg.texi; sourceTree = "<group>"; };
+		444B893D1ECAAC7200E8BC1E /* ffmpeg.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffmpeg.txt; sourceTree = "<group>"; };
+		444B893E1ECAAC7200E8BC1E /* ffplay.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffplay.texi; sourceTree = "<group>"; };
+		444B893F1ECAAC7200E8BC1E /* ffprobe.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffprobe.texi; sourceTree = "<group>"; };
+		444B89401ECAAC7200E8BC1E /* ffprobe.xsd */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ffprobe.xsd; sourceTree = "<group>"; };
+		444B89411ECAAC7200E8BC1E /* ffserver.conf */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffserver.conf; sourceTree = "<group>"; };
+		444B89421ECAAC7200E8BC1E /* ffserver.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffserver.texi; sourceTree = "<group>"; };
+		444B89431ECAAC7200E8BC1E /* fftools-common-opts.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "fftools-common-opts.texi"; sourceTree = "<group>"; };
+		444B89441ECAAC7200E8BC1E /* filter_design.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = filter_design.txt; sourceTree = "<group>"; };
+		444B89451ECAAC7200E8BC1E /* filters.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = filters.texi; sourceTree = "<group>"; };
+		444B89461ECAAC7200E8BC1E /* formats.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = formats.texi; sourceTree = "<group>"; };
+		444B89471ECAAC7200E8BC1E /* general.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = general.texi; sourceTree = "<group>"; };
+		444B89481ECAAC7200E8BC1E /* git-howto.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "git-howto.texi"; sourceTree = "<group>"; };
+		444B89491ECAAC7200E8BC1E /* indevs.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = indevs.texi; sourceTree = "<group>"; };
+		444B894A1ECAAC7200E8BC1E /* issue_tracker.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = issue_tracker.txt; sourceTree = "<group>"; };
+		444B894B1ECAAC7200E8BC1E /* lexicon */ = {isa = PBXFileReference; lastKnownFileType = text; path = lexicon; sourceTree = "<group>"; };
+		444B894C1ECAAC7200E8BC1E /* libav-merge.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "libav-merge.txt"; sourceTree = "<group>"; };
+		444B894D1ECAAC7200E8BC1E /* libavcodec.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavcodec.texi; sourceTree = "<group>"; };
+		444B894E1ECAAC7200E8BC1E /* libavdevice.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavdevice.texi; sourceTree = "<group>"; };
+		444B894F1ECAAC7200E8BC1E /* libavfilter.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavfilter.texi; sourceTree = "<group>"; };
+		444B89501ECAAC7200E8BC1E /* libavformat.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavformat.texi; sourceTree = "<group>"; };
+		444B89511ECAAC7200E8BC1E /* libavutil.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavutil.texi; sourceTree = "<group>"; };
+		444B89521ECAAC7200E8BC1E /* libswresample.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = libswresample.texi; sourceTree = "<group>"; };
+		444B89531ECAAC7200E8BC1E /* libswscale.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = libswscale.texi; sourceTree = "<group>"; };
+		444B89541ECAAC7200E8BC1E /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		444B89551ECAAC7200E8BC1E /* metadata.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = metadata.texi; sourceTree = "<group>"; };
+		444B89561ECAAC7200E8BC1E /* mips.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mips.txt; sourceTree = "<group>"; };
+		444B89571ECAAC7200E8BC1E /* multithreading.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = multithreading.txt; sourceTree = "<group>"; };
+		444B89581ECAAC7200E8BC1E /* muxers.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = muxers.texi; sourceTree = "<group>"; };
+		444B89591ECAAC7200E8BC1E /* nut.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = nut.texi; sourceTree = "<group>"; };
+		444B895A1ECAAC7200E8BC1E /* optimization.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = optimization.txt; sourceTree = "<group>"; };
+		444B895B1ECAAC7200E8BC1E /* outdevs.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = outdevs.texi; sourceTree = "<group>"; };
+		444B895C1ECAAC7200E8BC1E /* patchwork */ = {isa = PBXFileReference; lastKnownFileType = text; path = patchwork; sourceTree = "<group>"; };
+		444B895D1ECAAC7200E8BC1E /* platform.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = platform.texi; sourceTree = "<group>"; };
+		444B895E1ECAAC7200E8BC1E /* print_options.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = print_options.c; sourceTree = "<group>"; };
+		444B895F1ECAAC7200E8BC1E /* protocols.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = protocols.texi; sourceTree = "<group>"; };
+		444B89601ECAAC7200E8BC1E /* rate_distortion.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = rate_distortion.txt; sourceTree = "<group>"; };
+		444B89611ECAAC7200E8BC1E /* resampler.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = resampler.texi; sourceTree = "<group>"; };
+		444B89621ECAAC7200E8BC1E /* scaler.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = scaler.texi; sourceTree = "<group>"; };
+		444B89631ECAAC7200E8BC1E /* snow.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = snow.txt; sourceTree = "<group>"; };
+		444B89641ECAAC7200E8BC1E /* style.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.min.css; sourceTree = "<group>"; };
+		444B89651ECAAC7200E8BC1E /* swresample.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = swresample.txt; sourceTree = "<group>"; };
+		444B89661ECAAC7200E8BC1E /* swscale.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = swscale.txt; sourceTree = "<group>"; };
+		444B89671ECAAC7200E8BC1E /* t2h.init */ = {isa = PBXFileReference; lastKnownFileType = text; path = t2h.init; sourceTree = "<group>"; };
+		444B89681ECAAC7200E8BC1E /* t2h.pm */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = t2h.pm; sourceTree = "<group>"; };
+		444B89691ECAAC7200E8BC1E /* tablegen.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = tablegen.txt; sourceTree = "<group>"; };
+		444B896A1ECAAC7200E8BC1E /* texi2pod.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = texi2pod.pl; sourceTree = "<group>"; };
+		444B896B1ECAAC7200E8BC1E /* texidep.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = texidep.pl; sourceTree = "<group>"; };
+		444B896C1ECAAC7200E8BC1E /* utils.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = utils.texi; sourceTree = "<group>"; };
+		444B896D1ECAAC7200E8BC1E /* writing_filters.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = writing_filters.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		444B89171ECAAC7200E8BC1E = {
+			isa = PBXGroup;
+			children = (
+				444B891D1ECAAC7200E8BC1E /* .gitignore */,
+				444B891E1ECAAC7200E8BC1E /* APIchanges */,
+				444B891F1ECAAC7200E8BC1E /* authors.texi */,
+				444B89201ECAAC7200E8BC1E /* bitstream_filters.texi */,
+				444B89211ECAAC7200E8BC1E /* bootstrap.min.css */,
+				444B89221ECAAC7200E8BC1E /* build_system.txt */,
+				444B89231ECAAC7200E8BC1E /* codecs.texi */,
+				444B89241ECAAC7200E8BC1E /* config.texi */,
+				444B89251ECAAC7200E8BC1E /* decoders.texi */,
+				444B89261ECAAC7200E8BC1E /* default.css */,
+				444B89271ECAAC7200E8BC1E /* demuxers.texi */,
+				444B89281ECAAC7200E8BC1E /* developer.texi */,
+				444B89291ECAAC7200E8BC1E /* devices.texi */,
+				444B892A1ECAAC7200E8BC1E /* doxy */,
+				444B892B1ECAAC7200E8BC1E /* doxy-wrapper.sh */,
+				444B892C1ECAAC7200E8BC1E /* Doxyfile */,
+				444B892D1ECAAC7200E8BC1E /* encoders.texi */,
+				444B892E1ECAAC7200E8BC1E /* errno.txt */,
+				444B892F1ECAAC7200E8BC1E /* examples */,
+				444B89301ECAAC7200E8BC1E /* faq.texi */,
+				444B89311ECAAC7200E8BC1E /* fate.texi */,
+				444B89321ECAAC7200E8BC1E /* fate_config.sh.template */,
+				444B89331ECAAC7200E8BC1E /* ffmpeg-bitstream-filters.texi */,
+				444B89341ECAAC7200E8BC1E /* ffmpeg-codecs.texi */,
+				444B89351ECAAC7200E8BC1E /* ffmpeg-devices.texi */,
+				444B89361ECAAC7200E8BC1E /* ffmpeg-filters.texi */,
+				444B89371ECAAC7200E8BC1E /* ffmpeg-formats.texi */,
+				444B89381ECAAC7200E8BC1E /* ffmpeg-protocols.texi */,
+				444B89391ECAAC7200E8BC1E /* ffmpeg-resampler.texi */,
+				444B893A1ECAAC7200E8BC1E /* ffmpeg-scaler.texi */,
+				444B893B1ECAAC7200E8BC1E /* ffmpeg-utils.texi */,
+				444B893C1ECAAC7200E8BC1E /* ffmpeg.texi */,
+				444B893D1ECAAC7200E8BC1E /* ffmpeg.txt */,
+				444B893E1ECAAC7200E8BC1E /* ffplay.texi */,
+				444B893F1ECAAC7200E8BC1E /* ffprobe.texi */,
+				444B89401ECAAC7200E8BC1E /* ffprobe.xsd */,
+				444B89411ECAAC7200E8BC1E /* ffserver.conf */,
+				444B89421ECAAC7200E8BC1E /* ffserver.texi */,
+				444B89431ECAAC7200E8BC1E /* fftools-common-opts.texi */,
+				444B89441ECAAC7200E8BC1E /* filter_design.txt */,
+				444B89451ECAAC7200E8BC1E /* filters.texi */,
+				444B89461ECAAC7200E8BC1E /* formats.texi */,
+				444B89471ECAAC7200E8BC1E /* general.texi */,
+				444B89481ECAAC7200E8BC1E /* git-howto.texi */,
+				444B89491ECAAC7200E8BC1E /* indevs.texi */,
+				444B894A1ECAAC7200E8BC1E /* issue_tracker.txt */,
+				444B894B1ECAAC7200E8BC1E /* lexicon */,
+				444B894C1ECAAC7200E8BC1E /* libav-merge.txt */,
+				444B894D1ECAAC7200E8BC1E /* libavcodec.texi */,
+				444B894E1ECAAC7200E8BC1E /* libavdevice.texi */,
+				444B894F1ECAAC7200E8BC1E /* libavfilter.texi */,
+				444B89501ECAAC7200E8BC1E /* libavformat.texi */,
+				444B89511ECAAC7200E8BC1E /* libavutil.texi */,
+				444B89521ECAAC7200E8BC1E /* libswresample.texi */,
+				444B89531ECAAC7200E8BC1E /* libswscale.texi */,
+				444B89541ECAAC7200E8BC1E /* Makefile */,
+				444B89551ECAAC7200E8BC1E /* metadata.texi */,
+				444B89561ECAAC7200E8BC1E /* mips.txt */,
+				444B89571ECAAC7200E8BC1E /* multithreading.txt */,
+				444B89581ECAAC7200E8BC1E /* muxers.texi */,
+				444B89591ECAAC7200E8BC1E /* nut.texi */,
+				444B895A1ECAAC7200E8BC1E /* optimization.txt */,
+				444B895B1ECAAC7200E8BC1E /* outdevs.texi */,
+				444B895C1ECAAC7200E8BC1E /* patchwork */,
+				444B895D1ECAAC7200E8BC1E /* platform.texi */,
+				444B895E1ECAAC7200E8BC1E /* print_options.c */,
+				444B895F1ECAAC7200E8BC1E /* protocols.texi */,
+				444B89601ECAAC7200E8BC1E /* rate_distortion.txt */,
+				444B89611ECAAC7200E8BC1E /* resampler.texi */,
+				444B89621ECAAC7200E8BC1E /* scaler.texi */,
+				444B89631ECAAC7200E8BC1E /* snow.txt */,
+				444B89641ECAAC7200E8BC1E /* style.min.css */,
+				444B89651ECAAC7200E8BC1E /* swresample.txt */,
+				444B89661ECAAC7200E8BC1E /* swscale.txt */,
+				444B89671ECAAC7200E8BC1E /* t2h.init */,
+				444B89681ECAAC7200E8BC1E /* t2h.pm */,
+				444B89691ECAAC7200E8BC1E /* tablegen.txt */,
+				444B896A1ECAAC7200E8BC1E /* texi2pod.pl */,
+				444B896B1ECAAC7200E8BC1E /* texidep.pl */,
+				444B896C1ECAAC7200E8BC1E /* utils.texi */,
+				444B896D1ECAAC7200E8BC1E /* writing_filters.txt */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		444B891C1ECAAC7200E8BC1E /* doc */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 444B896E1ECAAC7200E8BC1E /* Build configuration list for PBXLegacyTarget "doc" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/huade/project/video/ffmpeg/doc;
+			dependencies = (
+			);
+			name = doc;
+			passBuildSettingsInEnvironment = 1;
+			productName = doc;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		444B89181ECAAC7200E8BC1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 444B891B1ECAAC7200E8BC1E /* Build configuration list for PBXProject "doc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 444B89171ECAAC7200E8BC1E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				444B891C1ECAAC7200E8BC1E /* doc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		444B89191ECAAC7200E8BC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		444B891A1ECAAC7200E8BC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		444B896F1ECAAC7200E8BC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = doc;
+			};
+			name = Debug;
+		};
+		444B89701ECAAC7200E8BC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = doc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		444B891B1ECAAC7200E8BC1E /* Build configuration list for PBXProject "doc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444B89191ECAAC7200E8BC1E /* Debug */,
+				444B891A1ECAAC7200E8BC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		444B896E1ECAAC7200E8BC1E /* Build configuration list for PBXLegacyTarget "doc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444B896F1ECAAC7200E8BC1E /* Debug */,
+				444B89701ECAAC7200E8BC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 444B89181ECAAC7200E8BC1E /* Project object */;
+}

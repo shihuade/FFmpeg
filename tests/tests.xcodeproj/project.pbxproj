@@ -1,0 +1,194 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		444B94301ECAAC7300E8BC1E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		444B94311ECAAC7300E8BC1E /* api */ = {isa = PBXFileReference; lastKnownFileType = folder; path = api; sourceTree = "<group>"; };
+		444B94321ECAAC7300E8BC1E /* audiogen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = audiogen.c; sourceTree = "<group>"; };
+		444B94331ECAAC7300E8BC1E /* audiomatch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = audiomatch.c; sourceTree = "<group>"; };
+		444B94341ECAAC7300E8BC1E /* base64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		444B94351ECAAC7300E8BC1E /* checkasm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = checkasm; sourceTree = "<group>"; };
+		444B94361ECAAC7300E8BC1E /* copycooker.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = copycooker.sh; sourceTree = "<group>"; };
+		444B94371ECAAC7300E8BC1E /* extended.ffconcat */ = {isa = PBXFileReference; lastKnownFileType = text; path = extended.ffconcat; sourceTree = "<group>"; };
+		444B94381ECAAC7300E8BC1E /* fate */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fate; sourceTree = "<group>"; };
+		444B94391ECAAC7300E8BC1E /* fate-run.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "fate-run.sh"; sourceTree = "<group>"; };
+		444B943A1ECAAC7300E8BC1E /* fate-valgrind.supp */ = {isa = PBXFileReference; lastKnownFileType = text; path = "fate-valgrind.supp"; sourceTree = "<group>"; };
+		444B943B1ECAAC7300E8BC1E /* fate.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = fate.sh; sourceTree = "<group>"; };
+		444B943C1ECAAC7300E8BC1E /* ffserver-regression.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "ffserver-regression.sh"; sourceTree = "<group>"; };
+		444B943D1ECAAC7300E8BC1E /* ffserver.conf */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffserver.conf; sourceTree = "<group>"; };
+		444B943E1ECAAC7300E8BC1E /* ffserver.regression.ref */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffserver.regression.ref; sourceTree = "<group>"; };
+		444B943F1ECAAC7300E8BC1E /* filtergraphs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = filtergraphs; sourceTree = "<group>"; };
+		444B94401ECAAC7300E8BC1E /* lavf-regression.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "lavf-regression.sh"; sourceTree = "<group>"; };
+		444B94411ECAAC7300E8BC1E /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		444B94421ECAAC7300E8BC1E /* md5.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = md5.sh; sourceTree = "<group>"; };
+		444B94431ECAAC7300E8BC1E /* ref */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ref; sourceTree = "<group>"; };
+		444B94441ECAAC7300E8BC1E /* reference.pnm */ = {isa = PBXFileReference; lastKnownFileType = file; path = reference.pnm; sourceTree = "<group>"; };
+		444B94451ECAAC7300E8BC1E /* regression-funcs.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "regression-funcs.sh"; sourceTree = "<group>"; };
+		444B94461ECAAC7300E8BC1E /* rotozoom.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rotozoom.c; sourceTree = "<group>"; };
+		444B94471ECAAC7300E8BC1E /* simple1.ffconcat */ = {isa = PBXFileReference; lastKnownFileType = text; path = simple1.ffconcat; sourceTree = "<group>"; };
+		444B94481ECAAC7300E8BC1E /* simple2.ffconcat */ = {isa = PBXFileReference; lastKnownFileType = text; path = simple2.ffconcat; sourceTree = "<group>"; };
+		444B94491ECAAC7300E8BC1E /* test.ffmeta */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.ffmeta; sourceTree = "<group>"; };
+		444B944A1ECAAC7300E8BC1E /* tiny_psnr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tiny_psnr.c; sourceTree = "<group>"; };
+		444B944B1ECAAC7300E8BC1E /* tiny_ssim.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tiny_ssim.c; sourceTree = "<group>"; };
+		444B944C1ECAAC7300E8BC1E /* utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		444B944D1ECAAC7300E8BC1E /* videogen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = videogen.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		444B942A1ECAAC7300E8BC1E = {
+			isa = PBXGroup;
+			children = (
+				444B94301ECAAC7300E8BC1E /* .gitignore */,
+				444B94311ECAAC7300E8BC1E /* api */,
+				444B94321ECAAC7300E8BC1E /* audiogen.c */,
+				444B94331ECAAC7300E8BC1E /* audiomatch.c */,
+				444B94341ECAAC7300E8BC1E /* base64.c */,
+				444B94351ECAAC7300E8BC1E /* checkasm */,
+				444B94361ECAAC7300E8BC1E /* copycooker.sh */,
+				444B94371ECAAC7300E8BC1E /* extended.ffconcat */,
+				444B94381ECAAC7300E8BC1E /* fate */,
+				444B94391ECAAC7300E8BC1E /* fate-run.sh */,
+				444B943A1ECAAC7300E8BC1E /* fate-valgrind.supp */,
+				444B943B1ECAAC7300E8BC1E /* fate.sh */,
+				444B943C1ECAAC7300E8BC1E /* ffserver-regression.sh */,
+				444B943D1ECAAC7300E8BC1E /* ffserver.conf */,
+				444B943E1ECAAC7300E8BC1E /* ffserver.regression.ref */,
+				444B943F1ECAAC7300E8BC1E /* filtergraphs */,
+				444B94401ECAAC7300E8BC1E /* lavf-regression.sh */,
+				444B94411ECAAC7300E8BC1E /* Makefile */,
+				444B94421ECAAC7300E8BC1E /* md5.sh */,
+				444B94431ECAAC7300E8BC1E /* ref */,
+				444B94441ECAAC7300E8BC1E /* reference.pnm */,
+				444B94451ECAAC7300E8BC1E /* regression-funcs.sh */,
+				444B94461ECAAC7300E8BC1E /* rotozoom.c */,
+				444B94471ECAAC7300E8BC1E /* simple1.ffconcat */,
+				444B94481ECAAC7300E8BC1E /* simple2.ffconcat */,
+				444B94491ECAAC7300E8BC1E /* test.ffmeta */,
+				444B944A1ECAAC7300E8BC1E /* tiny_psnr.c */,
+				444B944B1ECAAC7300E8BC1E /* tiny_ssim.c */,
+				444B944C1ECAAC7300E8BC1E /* utils.c */,
+				444B944D1ECAAC7300E8BC1E /* videogen.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		444B942F1ECAAC7300E8BC1E /* tests */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 444B944E1ECAAC7300E8BC1E /* Build configuration list for PBXLegacyTarget "tests" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/huade/project/video/ffmpeg/tests;
+			dependencies = (
+			);
+			name = tests;
+			passBuildSettingsInEnvironment = 1;
+			productName = tests;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		444B942B1ECAAC7300E8BC1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 444B942E1ECAAC7300E8BC1E /* Build configuration list for PBXProject "tests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 444B942A1ECAAC7300E8BC1E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				444B942F1ECAAC7300E8BC1E /* tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		444B942C1ECAAC7300E8BC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		444B942D1ECAAC7300E8BC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		444B944F1ECAAC7300E8BC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = tests;
+			};
+			name = Debug;
+		};
+		444B94501ECAAC7300E8BC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = tests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		444B942E1ECAAC7300E8BC1E /* Build configuration list for PBXProject "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444B942C1ECAAC7300E8BC1E /* Debug */,
+				444B942D1ECAAC7300E8BC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		444B944E1ECAAC7300E8BC1E /* Build configuration list for PBXLegacyTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444B944F1ECAAC7300E8BC1E /* Debug */,
+				444B94501ECAAC7300E8BC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 444B942B1ECAAC7300E8BC1E /* Project object */;
+}

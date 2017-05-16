@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Changelog">
+   </FileRef>
+   <FileRef
+      location = "group:cmdutils_opencl.c">
+   </FileRef>
+   <FileRef
+      location = "group:cmdutils.c">
+   </FileRef>
+   <FileRef
+      location = "group:cmdutils.h">
+   </FileRef>
+   <FileRef
+      location = "group:compat">
+   </FileRef>
+   <FileRef
+      location = "group:config.asm">
+   </FileRef>
+   <FileRef
+      location = "group:config.h">
+   </FileRef>
+   <FileRef
+      location = "group:configure">
+   </FileRef>
+   <FileRef
+      location = "group:CONTRIBUTING.md">
+   </FileRef>
+   <FileRef
+      location = "group:COPYING.GPLv2">
+   </FileRef>
+   <FileRef
+      location = "group:COPYING.GPLv3">
+   </FileRef>
+   <FileRef
+      location = "group:COPYING.LGPLv2.1">
+   </FileRef>
+   <FileRef
+      location = "group:COPYING.LGPLv3">
+   </FileRef>
+   <FileRef
+      location = "group:CREDITS">
+   </FileRef>
+   <FileRef
+      location = "group:ffbuild">
+   </FileRef>
+   <FileRef
+      location = "group:ffmpeg_cuvid.c">
+   </FileRef>
+   <FileRef
+      location = "group:ffmpeg_dxva2.c">
+   </FileRef>
+   <FileRef
+      location = "group:ffmpeg_filter.c">
+   </FileRef>
+   <FileRef
+      location = "group:ffmpeg_opt.c">
+   </FileRef>
+   <FileRef
+      location = "group:ffmpeg_qsv.c">
+   </FileRef>
+   <FileRef
+      location = "group:ffmpeg_vaapi.c">
+   </FileRef>
+   <FileRef
+      location = "group:ffmpeg_vdpau.c">
+   </FileRef>
+   <FileRef
+      location = "group:ffmpeg_videotoolbox.c">
+   </FileRef>
+   <FileRef
+      location = "group:ffmpeg.c">
+   </FileRef>
+   <FileRef
+      location = "group:ffmpeg.h">
+   </FileRef>
+   <FileRef
+      location = "group:FFMPEGAllInOne.xcworkspace">
+   </FileRef>
+   <FileRef
+      location = "group:ffplay.c">
+   </FileRef>
+   <FileRef
+      location = "group:ffprobe.c">
+   </FileRef>
+   <FileRef
+      location = "group:ffserver_config.c">
+   </FileRef>
+   <FileRef
+      location = "group:ffserver_config.h">
+   </FileRef>
+   <FileRef
+      location = "group:ffserver.c">
+   </FileRef>
+   <FileRef
+      location = "group:INSTALL.md">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE.md">
+   </FileRef>
+   <FileRef
+      location = "group:MAINTAINERS">
+   </FileRef>
+   <FileRef
+      location = "group:Makefile">
+   </FileRef>
+   <FileRef
+      location = "group:presets">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:RELEASE">
+   </FileRef>
+   <FileRef
+      location = "group:doc/doc.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libavcodec/libavcodec.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libavdevice/libavdevice.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libavfilter/libavfilter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libavformat/libavformat.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libavresample/libavresample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libavutil/libavutil.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libpostproc/libpostproc.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libswresample/libswresample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libswscale/libswscale.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:tests/tests.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:tools/tools.xcodeproj">
+   </FileRef>
+</Workspace>

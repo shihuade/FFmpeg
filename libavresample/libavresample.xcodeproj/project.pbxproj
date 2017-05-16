@@ -1,0 +1,182 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		444B92DE1ECAAC7300E8BC1E /* aarch64 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = aarch64; sourceTree = "<group>"; };
+		444B92DF1ECAAC7300E8BC1E /* arm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = arm; sourceTree = "<group>"; };
+		444B92E01ECAAC7300E8BC1E /* audio_convert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = audio_convert.c; sourceTree = "<group>"; };
+		444B92E11ECAAC7300E8BC1E /* audio_convert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = audio_convert.h; sourceTree = "<group>"; };
+		444B92E21ECAAC7300E8BC1E /* audio_data.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = audio_data.c; sourceTree = "<group>"; };
+		444B92E31ECAAC7300E8BC1E /* audio_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = audio_data.h; sourceTree = "<group>"; };
+		444B92E41ECAAC7300E8BC1E /* audio_mix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = audio_mix.c; sourceTree = "<group>"; };
+		444B92E51ECAAC7300E8BC1E /* audio_mix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = audio_mix.h; sourceTree = "<group>"; };
+		444B92E61ECAAC7300E8BC1E /* audio_mix_matrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = audio_mix_matrix.c; sourceTree = "<group>"; };
+		444B92E71ECAAC7300E8BC1E /* avresample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avresample.h; sourceTree = "<group>"; };
+		444B92E81ECAAC7300E8BC1E /* avresampleres.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = avresampleres.rc; sourceTree = "<group>"; };
+		444B92E91ECAAC7300E8BC1E /* dither.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dither.c; sourceTree = "<group>"; };
+		444B92EA1ECAAC7300E8BC1E /* dither.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dither.h; sourceTree = "<group>"; };
+		444B92EB1ECAAC7300E8BC1E /* internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
+		444B92EC1ECAAC7300E8BC1E /* libavresample.v */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavresample.v; sourceTree = "<group>"; };
+		444B92ED1ECAAC7300E8BC1E /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		444B92EE1ECAAC7300E8BC1E /* options.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = options.c; sourceTree = "<group>"; };
+		444B92EF1ECAAC7300E8BC1E /* resample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = resample.c; sourceTree = "<group>"; };
+		444B92F01ECAAC7300E8BC1E /* resample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resample.h; sourceTree = "<group>"; };
+		444B92F11ECAAC7300E8BC1E /* resample_template.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = resample_template.c; sourceTree = "<group>"; };
+		444B92F21ECAAC7300E8BC1E /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
+		444B92F31ECAAC7300E8BC1E /* utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		444B92F41ECAAC7300E8BC1E /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		444B92F51ECAAC7300E8BC1E /* x86 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = x86; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		444B92D81ECAAC7300E8BC1E = {
+			isa = PBXGroup;
+			children = (
+				444B92DE1ECAAC7300E8BC1E /* aarch64 */,
+				444B92DF1ECAAC7300E8BC1E /* arm */,
+				444B92E01ECAAC7300E8BC1E /* audio_convert.c */,
+				444B92E11ECAAC7300E8BC1E /* audio_convert.h */,
+				444B92E21ECAAC7300E8BC1E /* audio_data.c */,
+				444B92E31ECAAC7300E8BC1E /* audio_data.h */,
+				444B92E41ECAAC7300E8BC1E /* audio_mix.c */,
+				444B92E51ECAAC7300E8BC1E /* audio_mix.h */,
+				444B92E61ECAAC7300E8BC1E /* audio_mix_matrix.c */,
+				444B92E71ECAAC7300E8BC1E /* avresample.h */,
+				444B92E81ECAAC7300E8BC1E /* avresampleres.rc */,
+				444B92E91ECAAC7300E8BC1E /* dither.c */,
+				444B92EA1ECAAC7300E8BC1E /* dither.h */,
+				444B92EB1ECAAC7300E8BC1E /* internal.h */,
+				444B92EC1ECAAC7300E8BC1E /* libavresample.v */,
+				444B92ED1ECAAC7300E8BC1E /* Makefile */,
+				444B92EE1ECAAC7300E8BC1E /* options.c */,
+				444B92EF1ECAAC7300E8BC1E /* resample.c */,
+				444B92F01ECAAC7300E8BC1E /* resample.h */,
+				444B92F11ECAAC7300E8BC1E /* resample_template.c */,
+				444B92F21ECAAC7300E8BC1E /* tests */,
+				444B92F31ECAAC7300E8BC1E /* utils.c */,
+				444B92F41ECAAC7300E8BC1E /* version.h */,
+				444B92F51ECAAC7300E8BC1E /* x86 */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		444B92DD1ECAAC7300E8BC1E /* libavresample */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 444B92F61ECAAC7300E8BC1E /* Build configuration list for PBXLegacyTarget "libavresample" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/huade/project/video/ffmpeg/libavresample;
+			dependencies = (
+			);
+			name = libavresample;
+			passBuildSettingsInEnvironment = 1;
+			productName = libavresample;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		444B92D91ECAAC7300E8BC1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 444B92DC1ECAAC7300E8BC1E /* Build configuration list for PBXProject "libavresample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 444B92D81ECAAC7300E8BC1E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				444B92DD1ECAAC7300E8BC1E /* libavresample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		444B92DA1ECAAC7300E8BC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		444B92DB1ECAAC7300E8BC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		444B92F71ECAAC7300E8BC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libavresample;
+			};
+			name = Debug;
+		};
+		444B92F81ECAAC7300E8BC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libavresample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		444B92DC1ECAAC7300E8BC1E /* Build configuration list for PBXProject "libavresample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444B92DA1ECAAC7300E8BC1E /* Debug */,
+				444B92DB1ECAAC7300E8BC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		444B92F61ECAAC7300E8BC1E /* Build configuration list for PBXLegacyTarget "libavresample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444B92F71ECAAC7300E8BC1E /* Debug */,
+				444B92F81ECAAC7300E8BC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 444B92D91ECAAC7300E8BC1E /* Project object */;
+}
