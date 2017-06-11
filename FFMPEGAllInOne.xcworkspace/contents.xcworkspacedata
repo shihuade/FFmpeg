@@ -77,9 +77,6 @@
       location = "group:ffmpeg.h">
    </FileRef>
    <FileRef
-      location = "group:FFMPEGAllInOne.xcworkspace">
-   </FileRef>
-   <FileRef
       location = "group:ffplay.c">
    </FileRef>
    <FileRef
