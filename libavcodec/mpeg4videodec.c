@@ -2340,7 +2340,7 @@ static int decode_vop_header(Mpeg4DecContext *ctx, GetBitContext *gb)
     if (s->pict_type != AV_PICTURE_TYPE_B) {
         s->last_time_base = s->time_base;
         s->time_base     += time_incr;
-        s->time = s->time_base * s->avctx->framerate.num + time_increment;
+        s->time = s->time_base * (int64_t)s->avctx->framerate.num + time_increment;
         if (s->workaround_bugs & FF_BUG_UMP4) {
             if (s->time < s->last_non_b_time) {
                 /* header is not mpeg-4-compatible, broken encoder,
@@ -2352,7 +2352,7 @@ static int decode_vop_header(Mpeg4DecContext *ctx, GetBitContext *gb)
         s->pp_time         = s->time - s->last_non_b_time;
         s->last_non_b_time = s->time;
     } else {
-        s->time    = (s->last_time_base + time_incr) * s->avctx->framerate.num + time_increment;
+        s->time    = (s->last_time_base + time_incr) * (int64_t)s->avctx->framerate.num + time_increment;
         s->pb_time = s->pp_time - (s->last_non_b_time - s->time);
         if (s->pp_time <= s->pb_time ||
             s->pp_time <= s->pp_time - s->pb_time ||
@@ -2566,6 +2566,7 @@ int ff_mpeg4_decode_picture_header(Mpeg4DecContext *ctx, GetBitContext *gb)
     MpegEncContext *s = &ctx->m;
     unsigned startcode, v;
     int ret;
+    int vol = 0;
 
     /* search next start code */
     align_get_bits(gb);
@@ -2654,6 +2655,11 @@ int ff_mpeg4_decode_picture_header(Mpeg4DecContext *ctx, GetBitContext *gb)
         }
 
         if (startcode >= 0x120 && startcode <= 0x12F) {
+            if (vol) {
+                av_log(s->avctx, AV_LOG_ERROR, "Multiple VOL headers");
+                return AVERROR_INVALIDDATA;
+            }
+            vol++;
             if ((ret = decode_vol_header(ctx, gb)) < 0)
                 return ret;
         } else if (startcode == USER_DATA_STARTCODE) {

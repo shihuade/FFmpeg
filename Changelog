@@ -11,6 +11,14 @@ version <next>:
 - update cuvid/nvenc headers to Video Codec SDK 8.0.14
 - afir audio filter
 - scale_cuda CUDA based video scale filter
+- librsvg support for svg rasterization
+- crossfeed audio filter
+- spec compliant VP9 muxing support in MP4
+- remove the libnut muxer/demuxer wrappers
+- remove the libschroedinger encoder/decoder wrappers
+- surround audio filter
+- sofalizer filter switched to libmysofa
+- Gremlin Digital Video demuxer and decoder
 
 version 3.3:
 - CrystalHD decoder moved to new decode API

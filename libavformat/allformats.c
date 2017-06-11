@@ -134,6 +134,7 @@ static void register_all(void)
     REGISTER_MUXDEMUX(G722,             g722);
     REGISTER_MUXDEMUX(G723_1,           g723_1);
     REGISTER_DEMUXER (G729,             g729);
+    REGISTER_DEMUXER (GDV,              gdv);
     REGISTER_DEMUXER (GENH,             genh);
     REGISTER_MUXDEMUX(GIF,              gif);
     REGISTER_MUXDEMUX(GSM,              gsm);
@@ -369,6 +370,7 @@ static void register_all(void)
     REGISTER_DEMUXER (IMAGE_PSD_PIPE,        image_psd_pipe);
     REGISTER_DEMUXER (IMAGE_QDRAW_PIPE,      image_qdraw_pipe);
     REGISTER_DEMUXER (IMAGE_SGI_PIPE,        image_sgi_pipe);
+    REGISTER_DEMUXER (IMAGE_SVG_PIPE,        image_svg_pipe);
     REGISTER_DEMUXER (IMAGE_SUNRAST_PIPE,    image_sunrast_pipe);
     REGISTER_DEMUXER (IMAGE_TIFF_PIPE,       image_tiff_pipe);
     REGISTER_DEMUXER (IMAGE_WEBP_PIPE,       image_webp_pipe);
@@ -378,13 +380,12 @@ static void register_all(void)
     REGISTER_MUXER   (CHROMAPRINT,      chromaprint);
     REGISTER_DEMUXER (LIBGME,           libgme);
     REGISTER_DEMUXER (LIBMODPLUG,       libmodplug);
-    REGISTER_MUXDEMUX(LIBNUT,           libnut);
     REGISTER_DEMUXER (LIBOPENMPT,       libopenmpt);
 }
 
 void av_register_all(void)
 {
-    AVOnce control = AV_ONCE_INIT;
+    static AVOnce control = AV_ONCE_INIT;
 
     ff_thread_once(&control, register_all);
 }
